@@ -8,11 +8,10 @@ body {
     padding: 0;
     line-height: 20px;
     color: #444444;
-    background-image: url("./img/background.jpg");
-    background-repeat: no-repeat;
+    background-image: url("./img/background.png");
+    background-repeat: repeat;
     background-size: cover;
     font-family: 'Balsamiq Sans', cursive;
-    height: 98vh;
 }
 
 .site-header  {
