@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    color: #444444;
+    background-image: url("./img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Balsamiq Sans', cursive;
+    height: 98vh;
+}
+
+.site-header  {
+    min-width: 550px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.container {
+    width: max-content;
+    height: fit-content;
+    margin: 20px auto;
+    padding: 15px 25px 15px;
+    text-transform: uppercase;
+    background-color: rgba(253, 253, 253, 0.575);
+    border: 5px solid rgba(26, 26, 26, 0.616);
+    border-radius: 3em;
+}
+
+h1 {
+    width: fit-content;
+    margin: 10px auto;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 160px;
+    line-height: 120px;
+}
+
+.site-header p {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    line-height: 24px; 
+}
+
+.content {
+    width: max-content;
+    margin: 170px auto 30px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    background-color: rgba(253, 253, 253, 0.575);
+    border: 5px solid rgba(26, 26, 26, 0.616);
+    border-radius: 3em;
+}
+
+h2 {
+    width: max-content;
+    margin: 15px auto 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.button {
+    height: 60px;
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #444444;
+    font-size: 35px;
+    margin: 30px auto;
+    padding: 18px 20px;
+}
+
+.btn {
+    background-color: rgb(188,220,216);
+    border: 2px solid rgba(26, 26, 26, 0.486);
+    border-radius: 3em;
+}
+
+.btn:hover {
+    color: #474747;
+    background-color: rgb(205, 230, 226);
+}
+
+.btn:active {
+    background-color: rgb(217, 235, 232);
+    color: #444444;
+}
+
+/* Первый уровень*/
+
+.content-level-1, .points {
+    width: max-content;
+    margin: 50px auto 50px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    background-color: rgba(253, 253, 253, 0.575);
+    border: 5px solid rgba(26, 26, 26, 0.616);
+    border-radius: 3em;
+}
+
+.content-level-1 h2 {
+    margin-bottom: 18px;
+}
+
+
+.problems {
+    margin-bottom: 50px;
+    height: max-content;
+    background-color: rgba(253, 253, 253, 0.747);
+    border: 3px solid rgba(26, 26, 26, 0.616);
+    text-align: center;
+    padding: 15px;
+    border-radius: 3em;
+}
+
+.problems p {
+    font-size: 90px;
+    margin: 30px auto;
+    padding: 18px 20px;
+}
+
+.answers {
+    margin: 30px auto 50px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+}
+
+
+.btn1 {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 25px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 2px solid rgba(26, 26, 26, 0.616);
+	border-radius: 30px;
+	height: fit-content;
+	font-size: 70px;
+    font-family: 'Balsamiq Sans', cursive;
+	text-decoration: none;
+	color: #444444;
+	background-color: rgba(253, 253, 253, 0.747);
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+}
+
+.btn1:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.btn1:active {
+	background-color: #808080;
+}
+
+.points{
+    border: 2px solid rgba(26, 26, 26, 0.616);
+}
+
+.points p {
+    padding: 5px 8px;
+    font-size: 20px;
+}
